@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "particles.js でいろいろ遊ぶヤツ",
   "scripts": {
-    "start": "webpack-dev-server --mode development --inline --content-base public/ --watch-content-base --open"
+    "start": "webpack-dev-server --mode development --inline --content-base public/ --watch-content-base --open",
+    "build:webpack": "NODE_ENV=pro webpack --mode production"
   },
   "dependencies": {
     "particles.js": "^2.0.0"
